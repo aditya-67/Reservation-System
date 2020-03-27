@@ -39,4 +39,6 @@ Frontend has been setup!
 
 Application is now running at [localhost:8080](http://localhost:8080). 
 
+There is a link to a guide to use the system provided in the application. Click to know details about working. 
+
 #### Tested on Google Chrome.
