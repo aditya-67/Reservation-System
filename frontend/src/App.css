@@ -1,0 +1,24 @@
+#wrapper {
+  width: 100%;
+  display: inline-flex;
+}
+
+#main {
+  width: 50%;
+  padding: 20px 30px;
+}
+
+#list {
+  width: 40%;
+  padding: 30px;
+  position: fixed;
+  right: 0;
+}
+
+.heading {
+  text-align: center;
+  background: #3f51b5;
+  padding: 10px;
+  color: white;
+  margin: 0;
+}

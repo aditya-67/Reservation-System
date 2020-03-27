@@ -1,0 +1,55 @@
+#cal-date {
+  margin: 10px 0;
+}
+
+#cal-mth,
+#cal-yr {
+  padding: 10px 15px;
+  font-size: 1.2em;
+  border: 0;
+  background: #3f51b5;
+  color: #fff;
+  margin: 10px;
+}
+
+#guide {
+  display: inline-flex;
+  margin: 10px;
+}
+
+#guide button {
+  padding: 10px;
+  background: none;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+#legend {
+  display: flex;
+  margin: 10px;
+  background-color: #eee;
+}
+
+.holder {
+  display: inherit;
+  margin: 10px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  margin: 0px 10px;
+}
+
+.color.reserve {
+  background-color: #3f51b5de;
+}
+
+.color.select {
+  background-color: white;
+}
+
+.color.fill {
+  background-color: white;
+  border: 1px solid #3f51b5;
+}

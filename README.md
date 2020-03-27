@@ -23,18 +23,20 @@ You will need two terminals pointed to the frontend and backend directories to s
 
 * In the terminal, navigate to 'backend' folder
 * Install the dependencies ```npm install```
-* Run this command to start the backend server: ```npm start```
+* Start the backend server: ```npm start```
 
-Backend has been setup! API would be running at [localhost:3000](http://localhost:3000)
+Backend has been setup! 
+
+API would be running at [localhost:3000](http://localhost:3000)
 
 ### Setting up Frontend
 
 * In the terminal, navigate to 'frontend' folder
-* Install the dependencies ```npm install```
-* Run this command to start the frontend development server: ```npm run start``` 
+* Install the dependencies ```npm install``` or ```yarn install```
+* Start the frontend development server: ```npm run start```  or ```yarn start```
 
 Frontend has been setup!
 
-The application is now running at [localhost:8080](http://localhost:8080). 
+Application is now running at [localhost:8080](http://localhost:8080). 
 
 #### Tested on Google Chrome.

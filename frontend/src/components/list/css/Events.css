@@ -1,0 +1,99 @@
+#cover {
+  position: absolute;
+  background: #a7afd7de;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: 999 !important;
+}
+
+#cal-event {
+  position: absolute;
+  z-index: 1000;
+  top: 25%;
+  left: 36%;
+  width: 25%;
+  text-align: center;
+}
+
+#cal-event form {
+  padding: 15px;
+  margin-top: 20px;
+  background: white;
+  border: 1px solid #ddd;
+}
+
+#cal-event h1 {
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+
+#evt-date {
+  color: #999;
+  margin: 10px 0;
+}
+
+#cal-event textarea {
+  display: block;
+  box-sizing: padding-box;
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  resize: none;
+}
+
+#cal-event input[type=button],
+#cal-event input[type=submit] {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.2em;
+  border: 0;
+  background: #3f51b5;
+  color: #fff;
+  cursor: pointer;
+}
+
+#cal-event input[type=button].disabled {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.2em;
+  border: 0;
+  background: grey;
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #fff;
+}
+
+#dialog-screen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999 !important;
+  background-color: #a7afd7de;
+}
+
+#dialog-screen input[type=button] {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.2em;
+  border: 0;
+  background: #3f51b5;
+  color: #fff;
+  cursor: pointer;
+  width: 25%;
+}
+
+#dialog {
+  position: absolute;
+  width: 20%;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  top: 43%;
+  left: 37%;
+}
